@@ -4,6 +4,8 @@ h1{
     font-weight: normal;
     font-variant: small-caps;
     font-style: italic;
+    /* contoh short hand */
+    /* font: italic normal bold 16px/18px Helevetica, Arial, sans-serif; */
 }
 
 p{

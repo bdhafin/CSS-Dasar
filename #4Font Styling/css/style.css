@@ -6,6 +6,7 @@ h1{
     font-style: italic;
     /* contoh short hand */
     /* font: italic normal bold 16px/18px Helevetica, Arial, sans-serif; */
+    /* urutan : font-style  font-variant font-weight font-size line-height font-family  */
 }
 
 p{

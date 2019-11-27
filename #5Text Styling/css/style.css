@@ -1,0 +1,22 @@
+h1{
+    /* color: gold; warna dengan nama */
+
+    /* color dengan hexadecimal */
+    color: #ff0000; 
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+
+p{
+    /* color dengan RGB */
+    color: rgb(72, 74, 206);
+    /* text-align: justify; */
+    text-indent: 100px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+}

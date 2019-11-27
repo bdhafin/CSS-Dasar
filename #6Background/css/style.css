@@ -1,0 +1,9 @@
+body{
+    background-color: lightblue;
+    background-image: url(../image/object.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    /* contoh shorthand */
+    /* background: white url(../image/object.jpg) top left no-repeat; */
+}

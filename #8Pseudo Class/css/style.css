@@ -1,0 +1,67 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.hello:active{
+    color: greenyellow;
+}
+
+.hello:visited{
+    color: red;
+}
+
+/* contoh :first-child */
+/* li:first-child a{
+    color: green;
+} */
+
+/* contoh :last-child */
+/* li:last-child a{
+    color: green;
+} */
+
+/* contoh :nth-child() dengan urutan */
+/* li:nth-child(3) a{
+    color: greenyellow;
+} */
+
+/* contoh :nth-child() dengan kelipatan */
+/* li:nth-child(3n) a{
+    color: greenyellow;
+} */
+
+/* contoh :nth-child() dengan kelipatan dan di bedakan mulai nya*/
+/* li:nth-child(3n+1) a{
+    color: greenyellow;
+} */
+
+/* contoh :nth-child() dengan ganjil / genap */
+
+/* genap */
+li:nth-child(even) a{
+    color: greenyellow;
+}
+
+/* genap dengan hover*/ 
+li:nth-child(even) a:hover{
+    color: coral;
+}
+
+/* ganjil */
+li:nth-child(odd) a{
+    color: black;
+} 
+
+p:first-of-type{
+    color: red;
+}
+
+p:last-of-type{
+    color: blue;
+}
